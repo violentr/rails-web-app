@@ -1,0 +1,16 @@
+<div id="header">
+	<div class="header-container">
+		<span id="logo">
+			<%= image_tag "https://6716c801720b2d014ddd-90dd74bb468e514261468bbc28ae4817.ssl.cf3.rackcdn.com/a/logo-sprite-c189210ad21ab22a2329b735a95039e4.png", height: '41', width: '500' %>
+		</span>
+		<ul class="authentication">
+			<% %w{ cymraeg sign_in register }.each do |title| %>
+				<li><%= title.humanize.capitalize %> | </li>
+			<% end %>
+		</ul>
+		<span id="search_input">
+			<%= form_tag 'search' %>
+			<%= text_field_tag 'search_input' ,nil, placeholder: "Search" ,:size =>"29"%>
+		</span>
+	</div>
+</div>
