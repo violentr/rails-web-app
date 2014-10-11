@@ -98,10 +98,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Styling header */
 
  #header {
  	width:100%;
- 	height: 90px;
+ 	height: 69px;
  	background-color:green;
  	position:top;
  }
@@ -126,9 +127,6 @@ ul.authentication li {
 
 #logo {
 	position:relative;
-	/* left: -249px; */
-	/* top:10px; */
-	/* z-index: 1; */
 	padding-top: 10px;
 }
 #search_input {
@@ -147,8 +145,6 @@ span#logo {
     display: inline-block;
 }
 span#logo img {
-    /* left: -250px; */
-    /* position: absolute; */
     margin-left: -61%;
 }
 
@@ -165,3 +161,23 @@ span#logo {
     display: block;
     float: left;
 }
+/* styling index page*/
+
+
+.trust-banner-content-image  {
+	background:url("https://6716c801720b2d014ddd-90dd74bb468e514261468bbc28ae4817.ssl.cf3.rackcdn.com/a/illustrated_people-e9eea97162e95ba416e52dcdb50685df.png");
+	background-repeat: no-repeat;
+	background-attachment: relative;
+  background-position: right;
+}
+
+.trust-banner__heading {
+	font-size: 3rem;
+	line-height: 3.375rem;
+	max-width: 700px;
+	padding:32px;
+}
+.trust-banner-content {
+	padding-left:35px;
+	line-height:2em;
+
