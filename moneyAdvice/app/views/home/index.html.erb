@@ -1,16 +1,12 @@
-<div>
-	<div class="trust-banner-content-image">
-		<div class="trust-banner__heading">
-			<p>Free & impartial money advice, set up by government</p>
-		</div>
-		<div>
-			<ul>
-				<% [	"Advice and guides to help improve your finances",
-							"Tools and calculators to help you keep track and plan ahead",
-							"Support in person, over the phone and online"].each do |title| %>
-					<li class="trust-banner-content"><%= title %> <br /></li>
-				<% end %>
-			</ul>
-		</div>
+<div class="trust-banner-content-image">
+	<div class="trust-banner__heading">
+		<p>Free & impartial money advice, set up by government</p>
 	</div>
-</div>	
+	<ul>
+		<% [	"Advice and guides to help improve your finances",
+					"Tools and calculators to help you keep track and plan ahead",
+					"Support in person, over the phone and online"].each do |title| %>
+			<li class="trust-banner-content"><%= title %> <br /></li>
+		<% end %>
+	</ul>
+</div>
