@@ -180,4 +180,25 @@ span#logo {
 .trust-banner-content {
 	padding-left:35px;
 	line-height:2em;
+}
+
+/* Styling partial choose section */
+.choose-section {
+	width:100%;
+	height:600px;
+	background-color: lightgrey;
+
+}
+.choose-section p {
+	padding:32px;
+}
+
+.choose-section-dir ul {
+	padding-left:10px;
+	padding-bottom:20px;
+}
+.choose-section-dir li {
+	padding-left:10px;
+
+}
 
